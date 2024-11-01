@@ -66,8 +66,5 @@ The EDA includes detailed visualizations to explore factors related to attrition
 - Generates a ROC curve and calculates the ROC-AUC score for Logistic Regression.
 
 ## Results and Insights
-The findings from EDA and modeling will be shared in a one-page summary with actionable insights for HR:
 
-- High Attrition Factors: Low satisfaction, high average monthly hours, and lack of promotions are strongly associated with employee turnover.
-- Departmental Trends: Certain departments show higher attrition, indicating areas for HR intervention.
-
+## Summarise the insight here
