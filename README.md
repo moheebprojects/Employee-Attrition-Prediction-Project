@@ -23,30 +23,30 @@ The dataset contains 15,000 rows and 10 columns, each representing different emp
 
 ## Code Summary
 ### Data Cleaning & Preparation
-Missing Values and Duplicates: Checked for and handled missing values and duplicates in the data.
-Outlier Detection: Used a boxplot on the tenure column to detect and handle outliers.
-Feature Renaming: Renamed some columns for clarity (e.g., "time_spend_company" to "tenure").
+- Missing Values and Duplicates: Checked for and handled missing values and duplicates in the data.
+- Outlier Detection: Used a boxplot on the tenure column to detect and handle outliers.
+- Feature Renaming: Renamed some columns for clarity (e.g., "time_spend_company" to "tenure").
 
 ## Exploratory Data Analysis (EDA)
 The EDA includes detailed visualizations to explore factors related to attrition, such as:
 
-Employee Status: Proportion of employees who stayed vs. those who left, visualized with a pie chart.
-Tenure: Distribution of tenure across employees who left vs. stayed.
-Satisfaction Level: Histogram of satisfaction levels for employees who stayed vs. those who left.
-Monthly Hours: Distribution of average monthly hours worked by both groups.
-Project Count and Salary Level: Proportion of employees who left or stayed by the number of projects and salary brackets.
-Retention Rate Over Time: Retention rates visualized by tenure length.
-Department Analysis: Attrition rates by department and reasons related to lack of promotions or work accidents.
+- Employee Status: Proportion of employees who stayed vs. those who left, visualized with a pie chart.
+- Tenure: Distribution of tenure across employees who left vs. stayed.
+- Satisfaction Level: Histogram of satisfaction levels for employees who stayed vs. those who left.
+- Monthly Hours: Distribution of average monthly hours worked by both groups.
+- Project Count and Salary Level: Proportion of employees who left or stayed by the number of projects and salary brackets.
+- Retention Rate Over Time: Retention rates visualized by tenure length.
+- Department Analysis: Attrition rates by department and reasons related to lack of promotions or work accidents.
 
 ## Machine Learning Model
 The project uses a classification model to predict whether an employee will leave based on various features. Future steps include:
 
-Feature Selection: Based on EDA findings and multicollinearity checks.
-Model Training and Evaluation: Training a logistic regression or decision tree classifier and evaluating it with metrics like accuracy, recall, and ROC-AUC.
+- 1. Feature Selection: Based on EDA findings and multicollinearity checks.
+- 2. Model Training and Evaluation: Training a logistic regression or decision tree classifier and evaluating it with metrics like accuracy, recall, and ROC-AUC.
 
 ## Results and Insights
 The findings from EDA and modeling will be shared in a one-page summary with actionable insights for HR:
 
-High Attrition Factors: Low satisfaction, high average monthly hours, and lack of promotions are strongly associated with employee turnover.
-Departmental Trends: Certain departments show higher attrition, indicating areas for HR intervention.
+- High Attrition Factors: Low satisfaction, high average monthly hours, and lack of promotions are strongly associated with employee turnover.
+- Departmental Trends: Certain departments show higher attrition, indicating areas for HR intervention.
 
