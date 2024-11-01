@@ -10,16 +10,8 @@ This project focuses on analyzing employee data and building a predictive model 
 ## Dataset
 The dataset contains 15,000 rows and 10 columns, each representing different employee-related variables:
 
-- satisfaction_level: Employee's self-reported satisfaction level [0–1]
-- last_evaluation: Score from the employee's most recent performance review [0–1]
-- number_project: Number of projects the employee contributes to
-- average_monthly_hours: Average monthly hours worked by the employee
-- tenure: Years spent with the company
-- work_accident: Whether the employee experienced a work accident (0: No, 1: Yes)
-- left: Whether the employee left the company (0: Stayed, 1: Left)
-- promotion_last_5years: Whether the employee was promoted in the last five years
-- department: The employee's department
-- salary: Employee's salary level (low, medium, high)
+![image](https://github.com/user-attachments/assets/a29cf125-8054-4cab-bcce-cbf901ded578)
+
 
 ## Code Summary
 ### Data Cleaning & Preparation
