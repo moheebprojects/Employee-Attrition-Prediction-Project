@@ -3,23 +3,23 @@
 This project focuses on analyzing employee data and building a predictive model to help the Human Resources (HR) department at Salifort Motors, a large consulting firm, understand the factors contributing to employee attrition. The aim is to gain actionable insights into employee turnover, identify high-risk employees who might leave, and offer recommendations to improve employee retention.
 
 ## Project Goals
-Perform exploratory data analysis (EDA) to uncover trends and patterns related to employee attrition.
-Build and evaluate a machine learning model to predict whether an employee will leave the company.
-Visualize key insights to facilitate data-driven decisions by HR.
+- Perform exploratory data analysis (EDA) to uncover trends and patterns related to employee attrition.
+- Build and evaluate a machine learning model to predict whether an employee will leave the company.
+- Visualize key insights to facilitate data-driven decisions by HR.
 
 ## Dataset
 The dataset contains 15,000 rows and 10 columns, each representing different employee-related variables:
 
-satisfaction_level: Employee's self-reported satisfaction level [0–1]
-last_evaluation: Score from the employee's most recent performance review [0–1]
-number_project: Number of projects the employee contributes to
-average_monthly_hours: Average monthly hours worked by the employee
-tenure: Years spent with the company
-work_accident: Whether the employee experienced a work accident (0: No, 1: Yes)
-left: Whether the employee left the company (0: Stayed, 1: Left)
-promotion_last_5years: Whether the employee was promoted in the last five years
-department: The employee's department
-salary: Employee's salary level (low, medium, high)
+- satisfaction_level: Employee's self-reported satisfaction level [0–1]
+- last_evaluation: Score from the employee's most recent performance review [0–1]
+- number_project: Number of projects the employee contributes to
+- average_monthly_hours: Average monthly hours worked by the employee
+- tenure: Years spent with the company
+- work_accident: Whether the employee experienced a work accident (0: No, 1: Yes)
+- left: Whether the employee left the company (0: Stayed, 1: Left)
+- promotion_last_5years: Whether the employee was promoted in the last five years
+- department: The employee's department
+- salary: Employee's salary level (low, medium, high)
 
 ## Code Summary
 ### Data Cleaning & Preparation
