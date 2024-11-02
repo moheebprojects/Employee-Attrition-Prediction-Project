@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("")
+df = pd.read_csv(".../HR_comma_sep2.csv")
 
 # Ensure all columns are displayed
 pd.set_option("display.max_columns", None)
